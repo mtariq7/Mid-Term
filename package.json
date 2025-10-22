@@ -1,0 +1,26 @@
+{
+  "name": "mid-term",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-build": "npx sass scss/styles.scss css/styles.css --style=compressed --no-source-map",
+    "sass-watch": "npx sass --watch scss/styles.scss css/styles.css --style=compressed --no-source-map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtariq7/Mid-Term.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mtariq7/Mid-Term/issues"
+  },
+  "homepage": "https://github.com/mtariq7/Mid-Term#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "sass": "^1.93.2"
+  }
+}
